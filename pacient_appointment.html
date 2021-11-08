@@ -53,24 +53,32 @@
             </div>
             <div class="banner-text text-center">
               <h1 class="white">PRINCETON PLAINSBORO TEACHING HOSPITAL</h1>
-              <h2 class="white">LogIn Menu</h2>
+              <h2 class="white">Schedule an appointment</h2>
               
              
             </div>
 <form action="" method="post" role="form" class="contactForm">
     <div class="form-group" style="width:200px;">
-      <input type="email" name="name" class="form-control br-radius-zero"  id="username" placeholder="Your username ..." style="text-align: center;"/>
+      <input type="text" name="name" class="form-control br-radius-zero"  id="name" placeholder="Your name ..." style="text-align: center;"/>
       <div class="validation"></div>
     </div>
     
     <div class="form-group" style="width:200px;">
-      <input type="password" class="form-control br-radius-zero" name="password" id="password" placeholder="Your password ..." style="text-align: center;"/>
+      <input type="date" class="form-control br-radius-zero" name="dob" id="dob" placeholder="Your date of birth ..." style="text-align: center;"/>
       <div class="validation"></div>
     </div>
 
+    <div class="form-group" style="width:200px;">
+        <input type="text" class="form-control br-radius-zero" name="cnp" id="cnp" placeholder="Your CNP ..." maxlength="13" style="text-align: center;"/>
+        <div class="validation"></div>
+      </div>
 
+      <div class="form-group" style="width:200px;">
+        <textarea class="form-control br-radius-zero" name="symptoms" id="symptoms" placeholder="Your symptoms here ..." maxlength="13" style="text-align: center;"> </textarea>
+        <div class="validation"></div>
+      </div>
     <div class="form-action">
-      <button type="submit" class="btn btn-form">LogIn</button>
+      <button type="submit" class="btn btn-form">Schedule an appointment</button>
     </div>
   </form>
 </body>
